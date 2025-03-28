@@ -1,24 +1,25 @@
 ﻿@page "/products/create"
-
+@inject ApplicationDbContext context
+@inject NavigationManager NavigationManager
 
 <div class="col-sm-6">
-<h3>Create</h3>
-<EditForm Model = "product" OnValidSubmit="Save">
+    <h3>Create</h3>
+    <EditForm Model = "product" OnValidSubmit="Save">
 
-    <div class="from-group">
-        <lavel>Product Name</lavel>
-        <InputText @bind-Value="product.ProductName" class="form-control" > </InputText>
-    </div>
-    <div class="from-group">
-        <lavel>Price</lavel>
-        <InputNumber @bind-Value="product.Price" class="form-control"> </InputNumber>
-    </div>
-    <div class="from-group">
-        <button type="submit" class="btn btn-primary">Create Product</button>
-    </div>
+        <div class="from-group">
+            <lavel>Product Name</lavel>
+            <InputText @bind-Value="product.ProductName" class="form-control" > </InputText>
+        </div>
+        <div class="from-group">
+            <lavel>Price</lavel>
+            <InputNumber @bind-Value="product.Price" class="form-control"> </InputNumber>
+        </div>
+        <div class="from-group">
+            <button type="submit" class="btn btn-primary">Create Product</button>
+        </div>
 
 
-</EditForm>
+    </EditForm>
 </div>
 
 
@@ -26,9 +27,13 @@
 
     public Product product{ get; set; }
 
+
+
     void Save()
     {
-        
+        context.Products.Add(product);
+        context.SaveChanges();
+        NavigationManager.NavigateTo("/products");
     }
 
 }
