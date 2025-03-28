@@ -1,0 +1,55 @@
+﻿@page "/products"
+@inject ApplicationDbContext context
+
+<h3>Products</h3>
+
+<a href="/products/create" class="btn btn-primary">Add NewData</a>
+
+@if (Products is null)
+{
+    <p>Loading</p>
+}else if(Products.Count() ==0)
+{
+    <p>No products in database</p>
+}
+else
+{
+    <table clase="table table-striped table-ordered">
+        <thead>
+            <tr>
+                <td>Product_ID</td>
+                <td>Product_Name</td>
+                <td>Product_Price</td>
+                <td>Edit</td>
+                <td>Delete</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var product in Products)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.ProductName</td>
+                    <td>@product.Price</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+
+@code {
+
+    public List<Product> Products { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Products = context.Products.ToList();
+    }
+
+
+}

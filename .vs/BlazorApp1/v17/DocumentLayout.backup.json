@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DotNet_Blazor\\BlazorApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21C045C1-B566-4EC5-8490-4940542B3E0A}|BlazorApp1\\BlazorApp1.csproj|c:\\dotnet_blazor\\blazorapp1\\blazorapp1\\components\\pages\\products\\create.razor||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{21C045C1-B566-4EC5-8490-4940542B3E0A}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\products\\create.razor||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C045C1-B566-4EC5-8490-4940542B3E0A}|BlazorApp1\\BlazorApp1.csproj|c:\\dotnet_blazor\\blazorapp1\\blazorapp1\\components\\layout\\navmenu.razor||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{21C045C1-B566-4EC5-8490-4940542B3E0A}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\layout\\navmenu.razor||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C045C1-B566-4EC5-8490-4940542B3E0A}|BlazorApp1\\BlazorApp1.csproj|c:\\dotnet_blazor\\blazorapp1\\blazorapp1\\components\\pages\\products\\index.razor||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{21C045C1-B566-4EC5-8490-4940542B3E0A}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\products\\index.razor||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C045C1-B566-4EC5-8490-4940542B3E0A}|BlazorApp1\\BlazorApp1.csproj|c:\\dotnet_blazor\\blazorapp1\\blazorapp1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21C045C1-B566-4EC5-8490-4940542B3E0A}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C045C1-B566-4EC5-8490-4940542B3E0A}|BlazorApp1\\BlazorApp1.csproj|c:\\dotnet_blazor\\blazorapp1\\blazorapp1\\components\\pages\\products\\edit.razor||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{21C045C1-B566-4EC5-8490-4940542B3E0A}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\products\\edit.razor||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C045C1-B566-4EC5-8490-4940542B3E0A}|BlazorApp1\\BlazorApp1.csproj|c:\\dotnet_blazor\\blazorapp1\\blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21C045C1-B566-4EC5-8490-4940542B3E0A}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\DotNet_Blazor\\BlazorApp1\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\DotNet_Blazor\\BlazorApp1\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T09:56:52.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\DotNet_Blazor\\BlazorApp1\\BlazorApp1\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\DotNet_Blazor\\BlazorApp1\\BlazorApp1\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BlazorApp1\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:33:06.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\DotNet_Blazor\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Products\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Products\\Index.razor",
+              "ToolTip": "C:\\DotNet_Blazor\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Products\\Index.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Products\\Index.razor",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T06:08:53.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\DotNet_Blazor\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Products\\Create.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Products\\Create.razor",
+              "ToolTip": "C:\\DotNet_Blazor\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Products\\Create.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Products\\Create.razor",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T06:06:16.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\DotNet_Blazor\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Products\\Edit.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Products\\Edit.razor",
+              "ToolTip": "C:\\DotNet_Blazor\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Products\\Edit.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Products\\Edit.razor",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T06:02:52.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DotNet_Blazor\\BlazorApp1\\BlazorApp1\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
+              "ToolTip": "C:\\DotNet_Blazor\\BlazorApp1\\BlazorApp1\\Program.cs",
+              "RelativeToolTip": "BlazorApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T02:05:44.528Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

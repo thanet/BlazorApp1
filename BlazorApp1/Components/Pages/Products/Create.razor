@@ -1,0 +1,21 @@
+﻿@page "/products/create"
+
+<h3>Create</h3>
+<EditForm Model = "product" OnValidSubmit="Save">
+
+    <div class="from-group">
+        <lavel>Product Name</lavel>
+        <InputText @bind-Value="product.ProductName" class="form-control"/>
+        
+    </div>
+</EditForm>
+
+
+
+@code {
+
+    public Product product{ get; set; }
+
+
+
+}
