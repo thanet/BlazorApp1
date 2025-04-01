@@ -1,7 +1,45 @@
-﻿@page "/products/edit"
+﻿@page "/products/edit/{Id:int}"
+@inject ApplicationDbContext context
+@inject NavigationManager NavigationManager
 
-<h3>Edit</h3>
+<div class="col-sm-6">
+    <h3>Create</h3>
+    <EditForm Model = "product" OnValidSubmit="Update">
+
+        <div class="from-group">
+            <lavel>Product Name</lavel>
+            <InputText @bind-Value="product.ProductName" class="form-control" > </InputText>
+        </div>
+        <div class="from-group">
+            <lavel>Price</lavel>
+            <InputNumber @bind-Value="product.Price" class="form-control"> </InputNumber>
+        </div>
+        <div class="from-group">
+            <button type="submit" class="btn btn-primary">Update Product</button>
+        </div>
+
+
+    </EditForm>
+</div>
+
 
 @code {
+
+    public Product product{ get; set; }
+
+    [Parameter]
+    public int Id { get; set; }
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        product = context.Products.FirstOrDefault(e => e.Id == Id);
+    }
+
+    void Update()
+    {
+        context.Products.Update(product);
+        context.SaveChanges();
+        NavigationManager.NavigateTo("/products");
+    }
 
 }

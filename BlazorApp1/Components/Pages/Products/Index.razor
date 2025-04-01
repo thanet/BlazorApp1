@@ -31,7 +31,9 @@ else
                     <td>@product.Id</td>
                     <td>@product.ProductName</td>
                     <td>@product.Price</td>
-                    <td>Edit</td>
+                    <td>
+                        <a href=@($"/products/edit/{product.Id}") class="btn btn-info" >EDIT</a>
+                    </td>
                     <td>Delete</td>
                 </tr>
             }
