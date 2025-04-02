@@ -34,7 +34,10 @@ else
                     <td>
                         <a href=@($"/products/edit/{product.Id}") class="btn btn-info" >EDIT</a>
                     </td>
-                    <td>Delete</td>
+
+                    <td>
+                        <button class="btn btn-denger" @onclick=@(e=>Delete(product))>Delete</button>
+                    </td>
                 </tr>
             }
         </tbody>
@@ -53,5 +56,13 @@ else
         Products = context.Products.ToList();
     }
 
+    void Delete(Product product)
+    {
+        context.Products.Remove(product);
+        context.SaveChanges();
+
+        Products = context.Products.ToList();
+        StateHasChanged();
+    }
 
 }
